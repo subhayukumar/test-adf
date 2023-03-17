@@ -1,0 +1,15 @@
+{
+	"name": "DestinationDataset_aud",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MongoDbAtlas1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MongoDbAtlasCollection",
+		"schema": [],
+		"typeProperties": {
+			"collection": "test-collection"
+		}
+	}
+}
