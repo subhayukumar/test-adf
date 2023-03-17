@@ -1,0 +1,51 @@
+ID,city,city_ascii,state_id,state_name,county_fips,county_name,lat,lng,population,density,source,military,incorporated,timezone,ranking,zips,id,__fileposition__
+1,Anchorage,Anchorage,AK,Alaska,2020,Anchorage,61.1508,-149.1091,248902,66,shape,FALSE,TRUE,America/Anchorage,2,99518,1840023385,0
+2,Birmingham,Birmingham,AL,Alabama,1073,Jefferson,33.5279,-86.7971,753721,553,shape,FALSE,TRUE,America/Chicago,2,35218,1840006507,170
+3,Little Rock,Little Rock,AR,Arkansas,5119,Pulaski,34.7256,-92.3577,446814,637,shape,FALSE,TRUE,America/Chicago,2,72211,1840015509,341
+4,Phoenix,Phoenix,AZ,Arizona,4013,Maricopa,33.5722,-112.0892,4187723,1236,shape,FALSE,TRUE,America/Phoenix,1,85009,1840020568,513
+5,Los Angeles,Los Angeles,CA,California,6037,Los Angeles,34.1141,-118.4068,12531334,3267,shape,FALSE,TRUE,America/Los_Angeles,1,91367,1840020491,677
+6,Denver,Denver,CO,Colorado,8031,Denver,39.762,-104.8758,2709398,1805,shape,FALSE,TRUE,America/Denver,1,80264,1840018789,859
+7,Bridgeport,Bridgeport,CT,Connecticut,9001,Fairfield,41.1918,-73.1954,948918,3485,shape,FALSE,TRUE,America/New_York,2,6605,1840004836,1019
+9,Dover,Dover,DE,Delaware,10001,Kent,39.161,-75.5202,125931,617,shape,FALSE,TRUE,America/New_York,2,19902,1840005810,1391
+10,Miami,Miami,FL,Florida,12086,Miami-Dade,25.784,-80.2101,6076316,4945,shape,FALSE,TRUE,America/New_York,1,33128,1840015149,1549
+11,Atlanta,Atlanta,GA,Georgia,13121,Fulton,33.7628,-84.422,5151496,1419,shape,FALSE,TRUE,America/New_York,1,30334,1840013660,1712
+12,Honolulu,Honolulu,HI,Hawaii,15003,Honolulu,21.3294,-157.846,834138,2214,shape,FALSE,TRUE,Pacific/Honolulu,2,96859,1840013305,1875
+13,Des Moines,Des Moines,IA,Iowa,19153,Polk,41.5725,-93.6105,519180,943,shape,FALSE,TRUE,America/Chicago,2,50309,1840007069,2041
+14,Boise,Boise,ID,Idaho,16001,Ada,43.6005,-116.2308,407550,1047,shape,FALSE,TRUE,America/Boise,2,83703,1840027142,2204
+15,Chicago,Chicago,IL,Illinois,17031,Cook,41.8375,-87.6866,8586888,4576,shape,FALSE,TRUE,America/Chicago,1,60018,1840000494,2355
+16,Indianapolis,Indianapolis,IN,Indiana,18097,Marion,39.7771,-86.1458,1636763,928,shape,FALSE,TRUE,America/Indiana/Indianapolis,1,46234,1840030084,2516
+17,Wichita,Wichita,KS,Kansas,20173,Sedgwick,37.6895,-97.3443,484715,930,shape,FALSE,TRUE,America/Chicago,2,67230,1840001686,2701
+18,Louisville,Louisville,KY,Kentucky,21111,Jefferson,38.1663,-85.6485,1004821,906,shape,FALSE,TRUE,America/New_York,1,40245,1840030815,2864
+19,New Orleans,New Orleans,LA,Louisiana,22071,Orleans,30.0687,-89.9288,957783,891,shape,FALSE,TRUE,America/Chicago,2,70139,1840001839,3037
+20,Boston,Boston,MA,Massachusetts,25025,Suffolk,42.3188,-71.0852,4465966,5505,shape,FALSE,TRUE,America/New_York,1,2120,1840000455,3210
+21,Baltimore,Baltimore,MD,Maryland,24510,Baltimore,39.3051,-76.6144,2270087,2872,shape,FALSE,TRUE,America/New_York,1,21218,1840001592,3378
+22,Portland,Portland,ME,Maine,23005,Cumberland,43.6773,-70.2715,213986,1195,shape,FALSE,TRUE,America/New_York,2,4101,1840000327,3549
+23,Detroit,Detroit,MI,Michigan,26163,Wayne,42.3834,-83.1024,3731486,1871,shape,FALSE,TRUE,America/Detroit,1,48209,1840003971,3716
+24,Minneapolis,Minneapolis,MN,Minnesota,27053,Hennepin,44.9635,-93.2678,2885614,3035,shape,FALSE,TRUE,America/Chicago,1,55404,1840007830,3878
+25,St. Louis,St. Louis,MO,Missouri,29510,St. Louis,38.6359,-90.2451,2144317,1905,shape,FALSE,TRUE,America/Chicago,1,63110,1840001651,4052
+26,Jackson,Jackson,MS,Mississippi,28049,Hinds,32.3157,-90.2125,350373,566,shape,FALSE,TRUE,America/Chicago,2,39272,1840014895,4222
+27,Billings,Billings,MT,Montana,30111,Yellowstone,45.7891,-108.5526,116593,945,shape,FALSE,TRUE,America/Denver,2,59106,1840018496,4387
+28,Charlotte,Charlotte,NC,North Carolina,37119,Mecklenburg,35.2083,-80.8303,1526465,1094,shape,FALSE,TRUE,America/New_York,1,28269,1840014557,4555
+29,Fargo,Fargo,ND,North Dakota,38017,Cass,46.8651,-96.8292,205472,957,shape,FALSE,TRUE,America/Chicago,2,58102,1840000177,4734
+30,Omaha,Omaha,NE,Nebraska,31055,Douglas,41.2627,-96.0529,791432,1307,shape,FALSE,TRUE,America/Chicago,2,68112,1840009315,4895
+31,Nashua,Nashua,NH,New Hampshire,33011,Hillsborough,42.7491,-71.491,231409,1115,shape,FALSE,TRUE,America/New_York,2,3062,1840002984,5055
+32,Trenton,Trenton,NJ,New Jersey,34021,Mercer,40.2237,-74.7641,291085,4248,shape,FALSE,TRUE,America/New_York,2,8638,1840001383,5228
+33,Albuquerque,Albuquerque,NM,New Mexico,35001,Bernalillo,35.1054,-106.6465,762853,1155,shape,FALSE,TRUE,America/Denver,2,87123,1840019176,5394
+34,Las Vegas,Las Vegas,NV,Nevada,32003,Clark,36.2333,-115.2654,2165405,1754,shape,FALSE,TRUE,America/Los_Angeles,1,89146,1840020364,5570
+35,New York,New York,NY,New York,36081,Queens,40.6943,-73.9249,18680025,10768,shape,FALSE,TRUE,America/New_York,1,11229,1840034016,5738
+36,Cleveland,Cleveland,OH,Ohio,39035,Cuyahoga,41.4764,-81.6805,1742437,1903,shape,FALSE,TRUE,America/New_York,1,44135,1840000596,5904
+37,Oklahoma City,Oklahoma City,OK,Oklahoma,40109,Oklahoma,35.4676,-97.5136,947247,413,shape,FALSE,TRUE,America/Chicago,2,73099,1840020428,6070
+38,Portland,Portland,OR,Oregon,41051,Multnomah,45.5371,-122.65,2072553,1881,shape,FALSE,TRUE,America/Los_Angeles,1,97227,1840019941,6247
+39,Philadelphia,Philadelphia,PA,Pennsylvania,42101,Philadelphia,40.0077,-75.1339,5540199,4544,shape,FALSE,TRUE,America/New_York,1,19154,1840000673,6417
+41,Providence,Providence,RI,Rhode Island,44007,Providence,41.823,-71.4187,1204385,3764,shape,FALSE,TRUE,America/New_York,1,2903,1840003289,6776
+42,Charleston,Charleston,SC,South Carolina,45019,Charleston,32.8168,-79.9687,645413,461,shape,FALSE,TRUE,America/New_York,2,29414,1840015163,6954
+43,Sioux Falls,Sioux Falls,SD,South Dakota,46099,Minnehaha,43.5396,-96.7311,173921,883,shape,FALSE,TRUE,America/Chicago,2,57108,1840002648,7134
+44,Nashville,Nashville,TN,Tennessee,47037,Davidson,36.1715,-86.7842,1081876,541,shape,FALSE,TRUE,America/Chicago,1,37027,1840036155,7312
+45,Dallas,Dallas,TX,Texas,48113,Dallas,32.7935,-96.7667,5910669,1522,shape,FALSE,TRUE,America/Chicago,1,75098,1840019440,7482
+46,Salt Lake City,Salt Lake City,UT,Utah,49035,Salt Lake,40.7776,-111.9311,1135747,700,shape,FALSE,TRUE,America/Denver,1,84116,1840021383,7640
+47,Virginia Beach,Virginia Beach,VA,Virginia,51810,Virginia Beach,36.7335,-76.0435,1475522,711,shape,FALSE,TRUE,America/New_York,1,23459,1840003871,7815
+48,Burlington,Burlington,VT,Vermont,50007,Chittenden,44.4876,-73.2316,115682,1596,shape,FALSE,TRUE,America/New_York,2,5405,1840002310,8001
+49,Seattle,Seattle,WA,Washington,53033,King,47.6211,-122.3244,3530752,3414,shape,FALSE,TRUE,America/Los_Angeles,1,98109,1840021117,8174
+50,Milwaukee,Milwaukee,WI,Wisconsin,55079,Milwaukee,43.0642,-87.9675,1390046,2379,shape,FALSE,TRUE,America/Chicago,1,53203,1840003046,8341
+51,Huntington,Huntington,WV,West Virginia,54011,Cabell,38.4109,-82.4345,199133,1098,shape,FALSE,TRUE,America/New_York,2,25703,1840006211,8512
+52,Cheyenne,Cheyenne,WY,Wyoming,56021,Laramie,41.135,-104.7902,76456,767,shape,FALSE,TRUE,America/Denver,2,82009,1840018713,8687
