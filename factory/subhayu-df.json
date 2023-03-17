@@ -1,0 +1,9 @@
+{
+	"name": "subhayu-df",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "81bca204-dbb9-42b5-ab24-34535bb21957",
+		"tenantId": "b351153d-27b5-41c9-974e-6f582023699d"
+	}
+}
