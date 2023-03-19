@@ -1,5 +1,5 @@
 {
-	"name": "dataflow1",
+	"name": "CopyRESTtoSQL",
 	"properties": {
 		"type": "MappingDataFlow",
 		"typeProperties": {
@@ -60,11 +60,10 @@
 				"     skipDuplicateMapOutputs: true) ~> select1",
 				"select1 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     deletable:true,",
+				"     deletable:false,",
 				"     insertable:true,",
-				"     updateable:true,",
-				"     upsertable:true,",
-				"     keys:['name'],",
+				"     updateable:false,",
+				"     upsertable:false,",
 				"     format: 'table',",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
