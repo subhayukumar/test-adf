@@ -1,0 +1,83 @@
+{
+	"name": "dataflow1",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "SourceDataset_aud",
+						"type": "DatasetReference"
+					},
+					"name": "RESTSource"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "AzureSqlTable1",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				}
+			],
+			"transformations": [
+				{
+					"name": "derivedColumn1"
+				},
+				{
+					"name": "select1"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          body as (alpha_two_code as string, country as string, domains as string[], name as string, {state-province} as string, web_pages as string[]),",
+				"          headers as [string,string]",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     httpMethod: 'GET',",
+				"     timeout: 30,",
+				"     paginationRules: ['supportRFC5988' -> 'true'],",
+				"     responseFormat: ['type' -> 'json', 'documentForm' -> 'arrayOfDocuments']) ~> RESTSource",
+				"RESTSource derive(alpha_two_code = body.alpha_two_code,",
+				"          country = body.country,",
+				"          domain = body.domains[1],",
+				"          name = body.name,",
+				"          state = body.{state-province},",
+				"          web_page = body.web_pages[1]) ~> derivedColumn1",
+				"derivedColumn1 select(mapColumn(",
+				"          body,",
+				"          headers,",
+				"          alpha_two_code,",
+				"          country,",
+				"          domain,",
+				"          name,",
+				"          state,",
+				"          web_page",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> select1",
+				"select1 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     deletable:true,",
+				"     insertable:true,",
+				"     updateable:true,",
+				"     upsertable:true,",
+				"     keys:['name'],",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError',",
+				"     mapColumn(",
+				"          name,",
+				"          alpha_two_code,",
+				"          country,",
+				"          domain,",
+				"          state,",
+				"          web_page",
+				"     )) ~> sink1"
+			]
+		}
+	}
+}
