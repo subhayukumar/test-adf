@@ -1,5 +1,5 @@
 {
-	"name": "CopyRESTtoSQL",
+	"name": "CopyRESTtoSQLdf",
 	"properties": {
 		"type": "MappingDataFlow",
 		"typeProperties": {
