@@ -1,0 +1,12 @@
+{
+	"name": "testdb_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=subhayu-test-sql.database.windows.net;initial catalog=test-db;user id=subhayu",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDg1RkIzMTY2LTQ2OTUtNDQ3QS1BM0FELTBCOTdDRjExNTIwRF9mNDRjMDYzOS04MzZkLTQ0YWQtYmU1NC1jZDhjNjk5NTE5MmMiDQp9"
+		}
+	}
+}
