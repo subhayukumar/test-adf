@@ -47,8 +47,6 @@
 				"          state = body.{state-province},",
 				"          web_page = body.web_pages[1]) ~> derivedColumn1",
 				"derivedColumn1 select(mapColumn(",
-				"          body,",
-				"          headers,",
 				"          alpha_two_code,",
 				"          country,",
 				"          domain,",
