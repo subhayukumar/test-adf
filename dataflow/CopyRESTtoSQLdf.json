@@ -65,17 +65,7 @@
 				"     format: 'table',",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
-				"     errorHandlingOption: 'stopOnFirstError',",
-				"     mapColumn(",
-				"          body,",
-				"          headers,",
-				"          alpha_two_code,",
-				"          country,",
-				"          domain,",
-				"          name,",
-				"          state,",
-				"          web_page",
-				"     )) ~> sink1"
+				"     errorHandlingOption: 'stopOnFirstError') ~> sink1"
 			]
 		}
 	}
